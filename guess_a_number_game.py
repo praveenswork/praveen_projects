@@ -21,7 +21,8 @@ if option_1.upper()=="Y":
                 li.append(40)
                 print(f"your guessed number is {main_ans[sum(li)]}")
             else:
-                print("check your input, enter  valid option")
+                print(f"your guessed number is {main_ans[sum(li)]}")
+            
         elif option_3.upper()=="N":
             option_4=input("Enter Y or N to analys that your guessed number in this line  (10,9,4,5,7,8) :")
             if option_4.upper()=="Y":
@@ -47,7 +48,7 @@ if option_1.upper()=="Y":
                 li.append(40)
                 print(f"your guessed number is {main_ans[sum(li)]}")
             else:
-                print("check your input,enter  valid option")
+                print(f"your guessed number is {main_ans[sum(li)]}")
         else:
             print("check your input,enter  valid option")
 elif option_1.upper()=="N":
@@ -62,14 +63,14 @@ elif option_1.upper()=="N":
                 li.append(40)
                 print(f"your guessed number is {main_ans[sum(li)]}")
             else:
-                print("check your input,enter  valid option")
+                print(f"your guessed number is {main_ans[sum(li)]}")
         elif option_3.upper()=="N":
             option_4=input("Enter Y or N to analys that your guessed number in this line  (10,9,4,5,7,8) :")
             if option_4.upper()=="Y":
                 li.append(40)
                 print(f"your guessed number is {main_ans[sum(li)]}")
             else:
-                print(f"check your input,enter  valid option")
+                print(f"your guessed number is {main_ans[sum(li)]}")
         else:
             print("check you answer,enter  valid option")
     elif option_2.upper()=="N":
@@ -81,14 +82,14 @@ elif option_1.upper()=="N":
                 li.append(40)
                 print(f"your guessed number is {main_ans[sum(li)]}")
             else:
-                print("check your inpput,enter  valid option")
+                print(f"your guessed number is {main_ans[sum(li)]}")
         elif option_3.upper()=="N":
             option_4=input("Enter Y or N to analys that your guessed number in this line  (10,9,4,5,7,8) :")
             if option_4.upper()=="Y":
                 li.append(40)
                 print(f"your guessed number is {main_ans[sum(li)]}")
             else:
-                print("check your input,enter  valid option")
+                print(f"your guessed number is {main_ans[sum(li)]}")
         else:
             print("check your input,enter  valid option")
     else:
@@ -99,4 +100,3 @@ else:
     
 
 print("\n\n\t\t\t\tThank You ")
-
